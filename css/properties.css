@@ -1,6 +1,6 @@
 /* tag */
 body {
-    background-image: url("../pictures/background2.jpg");
+    background-image: url("../pictures/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -33,11 +33,15 @@ ul li {
 #yellow {
     color: yellow;
     text-align: center;
+    font-family: 'Share Tech', serif;
+    font-size: 20px;
 }
 
 #white {
     color: white;
     text-align: center;
+    font-family: 'Share Tech', serif;
+    font-size: 17px;
 }
 
 #navitems {
@@ -85,20 +89,19 @@ ul li {
 
 .name-header {
     font-family: 'Share Tech Mono', serif;
-    font-size: 48px;
+    font-size: 45px;
     text-shadow: 3px 3px 3px #aaa;
 }
 
 .major-college-header {
     font-family: 'Share Tech Mono', serif;
-    font-size: 24px;
+    font-size: 30px;
     text-shadow: 3px 3px 3px #aaa;
 }
 
 .menu {
     font-family: 'Share Tech Mono', serif;
-    font-size: 15px;
-    /*text-shadow: 3px 3px 3px #aaa;*/
+    font-size: 17px;
 }
 
 .icon-bar a {
