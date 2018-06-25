@@ -34,14 +34,14 @@ ul li {
     color: yellow;
     text-align: center;
     font-family: 'Share Tech', serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #white {
     color: white;
     text-align: center;
     font-family: 'Share Tech', serif;
-    font-size: 17px;
+    font-size: 25px;
 }
 
 #navitems {
@@ -54,7 +54,7 @@ ul li {
 }
 
 #navitems:hover {
-    background-color: #6492db;
+    background-color: black;
 }
 
 #bottomnavpic1 {
@@ -79,7 +79,6 @@ ul li {
 .jumbotron {
     background-color: transparent;
     margin-bottom: 0;
-    border-color: orange;
 }
 
 .name {
@@ -116,11 +115,11 @@ ul li {
 }
 
 .icon-bar a:hover {
-    background-color: #6492db;
+    background-color: black;
 }
 
 .active {
-    background-color: #6492db;
+    background-color: black;
     color: white;
 }
 
