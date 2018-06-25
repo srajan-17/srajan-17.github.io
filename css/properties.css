@@ -1,6 +1,8 @@
 /* tag */
 body {
-    background-image: url("../pictures/background.jpg");
+    background-image: url("../pictures/background2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 ul {
@@ -78,6 +80,18 @@ ul li {
 .name {
 	text-align: center;
 	color: white;
+}
+
+.name-header {
+    font-family: 'Share Tech Mono', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.major-college-header {
+    font-family: 'Share Tech Mono', serif;
+    font-size: 24px;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 .icon-bar {
