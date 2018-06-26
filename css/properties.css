@@ -1,10 +1,7 @@
 /* tag */
 body {
     background-image: url("../pictures/background.jpg");
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto 2000px;
-    
 }
 
 ul {
