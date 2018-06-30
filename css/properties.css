@@ -122,3 +122,20 @@ ul li {
     color: white;
 }
 
+.topmenubar a {
+	float: left;
+    text-align: center;
+    width: 33.33%;
+    padding: 12px 0px;
+    transition: all 0.3s ease;
+    color: white;
+    font-family: 'Share Tech Mono', serif;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #333;
+}
+
+.topmenubar a:hover {
+	background-color: black;
+}
+
