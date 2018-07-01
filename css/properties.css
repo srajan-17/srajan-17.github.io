@@ -13,6 +13,11 @@ body {
     margin-right: auto;
 }
 
+#header_image:hover {
+	border: 1px solid;
+	border-radius: 50%;
+}
+
 #yellow {
     color: yellow;
     text-align: center;
@@ -71,7 +76,7 @@ body {
 }
 
 .container {
-	width: 100%;
+	width: 90%;
 	background-color: #423A38;
 }
 
@@ -92,6 +97,11 @@ body {
     text-shadow: 3px 3px 3px #aaa;
 }
 
+.topmenubar {
+	width: 90%;
+	margin: auto;
+}
+
 .topmenubar a {
 	float: left;
     text-align: center;
@@ -109,6 +119,11 @@ body {
 	text-decoration: underline;
 }
 
+.icon-bar {
+	width: 90%;
+	margin: auto;
+}
+
 .icon-bar a {
     float: left;
     text-align: center;
@@ -119,8 +134,3 @@ body {
     font-size: 26px;
     background-color: #333;
 }
-
-.icon-bar a:hover {
-    /*background-color: black;*/
-}
-
