@@ -4,22 +4,6 @@ body {
     background-attachment: fixed;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    width: 100%;
-    display: table;
-    text-align: center;
-}
-
-ul li {
-    display: inline-block;
-    float: none;
-}
-
 /* id */
 #header_image {
 	border-radius: 50%;
@@ -43,19 +27,6 @@ ul li {
     font-size: 25px;
 }
 
-#navitems {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 35px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-#navitems:hover {
-    background-color: black;
-}
-
 #bottomnavpic1 {
     height: 50px;
 }
@@ -72,6 +43,11 @@ ul li {
     max-width: 50%;
     max-height: 50%;
     margin: 0 auto;
+}
+
+#active {
+    background-color: black;
+    color: white;
 }
 
 /* class */
@@ -97,31 +73,6 @@ ul li {
     text-shadow: 3px 3px 3px #aaa;
 }
 
-.menu {
-    font-family: 'Share Tech Mono', serif;
-    font-size: 16px;
-}
-
-.icon-bar a {
-    float: left;
-    text-align: center;
-    width: 33.33%;
-    padding: 12px 0px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 26px;
-    background-color: #333;
-}
-
-.icon-bar a:hover {
-    background-color: black;
-}
-
-.active {
-    background-color: black;
-    color: white;
-}
-
 .topmenubar a {
 	float: left;
     text-align: center;
@@ -137,5 +88,20 @@ ul li {
 
 .topmenubar a:hover {
 	background-color: black;
+}
+
+.icon-bar a {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    padding: 12px 0px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 26px;
+    background-color: #333;
+}
+
+.icon-bar a:hover {
+    background-color: black;
 }
 
