@@ -70,6 +70,11 @@ body {
     margin-bottom: 0;
 }
 
+.container {
+	width: 100%;
+	background-color: #423A38;
+}
+
 .name {
 	text-align: center;
 	color: white;
