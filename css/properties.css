@@ -34,28 +34,35 @@ body {
 
 #bottomnavpic1 {
     height: 50px;
+    opacity: 1;
+  	transition: .3s ease;
+  	backface-visibility: hidden;
 }
 
 #bottomnavpic2 {
     height: 50px;
+    opacity: 1;
+  	transition: .3s ease;
+  	backface-visibility: hidden;
 }
 
 #bottomnavpic3 {
     height: 50px;
+    opacity: 1;
+  	transition: .3s ease;
+  	backface-visibility: hidden;
 }
 
 #bottomnavpic1:hover {
-	border: 1px solid;
-	border-radius: 50%;
+	opacity: 0.3;
 }
 
 #bottomnavpic2:hover {
-	border: 1px solid;
+	opacity: 0.3;
 }
 
 #bottomnavpic3:hover {
-	border: 1px solid;
-	border-radius: 50%;
+	opacity: 0.3;
 }
 
 #cameraimage {
