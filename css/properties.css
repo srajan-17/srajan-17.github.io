@@ -76,36 +76,6 @@ body {
     color: white;
 }
 
-#labeltext {
-    color: yellow;
-    display: block;
-    text-align: center;
-    font-family: 'Share Tech Mono', serif;
-    font-size: 20px;
-}
-
-#labelfield {
-    display: block;
-    margin: auto;
-    width: 50%;
-    /*background-color: gray;*/
-    color: white;
-}
-
-#comments {
-    display: block;
-    margin: auto;
-    width: 50%;
-    /*background-color: gray;*/
-    color: white;
-}
-
-#submitbutton {
-    display: block;
-    margin: auto;
-
-}
-
 /* class */
 .jumbotron {
     background-color: transparent;
